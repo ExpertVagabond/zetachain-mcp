@@ -1,13 +1,9 @@
 {
-  "name": "ZetaChain Toolkit",
-  "description": "Inspect ZetaChain project structure, contracts, and execute ZetaChain CLI commands",
+  "name": "ZetaChain CLI",
+  "description": "ZetaChain development tools for Claude Code",
   "command": "node",
   "args": ["server.js"],
-  "port": 7000,
-  "id": "mcp-zetachain",
-  "version": "1.0.0",
   "env": {
-    "ZETA_PROJECT_PATH": "/path/to/your/zetachain/project",
-    "MCP_PORT": "7000"
+    "ZETA_PROJECT_PATH": "/path/to/your/zetachain/project"
   }
 }

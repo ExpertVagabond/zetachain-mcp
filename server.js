@@ -20,12 +20,12 @@ const path = require('path');
 const fs = require('fs');
 
 // Configuration
-const PORT = process.env.MCP_PORT || 7001;
+const PORT = process.env.MCP_PORT || 7000;
 const ZETA_PATH = process.env.ZETA_PROJECT_PATH || path.resolve(process.env.HOME, 'Projects/zetachain');
 
-console.log(`🚀 Starting ZetaChain MCP Server...`);
-console.log(`📁 ZetaChain project path: ${ZETA_PATH}`);
-console.log(`🔌 Server will run on port: ${PORT}`);
+console.log(`Starting ZetaChain MCP Server...`);
+console.log(`ZetaChain project path: ${ZETA_PATH}`);
+console.log(`Server will run on port: ${PORT}`);
 
 // Auto-start ZetaChain localnet
 function startLocalnet() {
