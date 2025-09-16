@@ -60,7 +60,7 @@ Add to Claude Code settings:
 ## Requirements
 
 - Node.js 16+
-- ZetaChain CLI: `npm install -g zetachain`
+- ZetaChain CLI: `npm install -g zetachain@latest`
 
 ## License
 
