@@ -1,5 +1,5 @@
 {
-  "name": "ZetaChain CLI",
+  "name": "ZetaChain MCP",
   "description": "ZetaChain development tools for Claude Code",
   "command": "node",
   "args": ["server.js"],

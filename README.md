@@ -1,4 +1,4 @@
-# ZetaChain MCP CLI
+# ZetaChain MCP
 
 A simple Model Context Protocol (MCP) server for Claude Code integration with ZetaChain development tools.
 
@@ -12,8 +12,8 @@ A simple Model Context Protocol (MCP) server for Claude Code integration with Ze
 ## Installation
 
 ```bash
-git clone https://github.com/ExpertVagabond/zetachain-mcp-cli.git
-cd zetachain-mcp-cli
+git clone https://github.com/ExpertVagabond/zetachain-mcp.git
+cd zetachain-mcp
 npm install
 npm start
 ```
@@ -51,7 +51,7 @@ Add to Claude Code settings:
   "mcpServers": {
     "zetachain-cli": {
       "command": "node",
-      "args": ["/path/to/zetachain-mcp-cli/server.js"]
+      "args": ["/path/to/zetachain-mcp/server.js"]
     }
   }
 }
