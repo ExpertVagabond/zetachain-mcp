@@ -23,6 +23,12 @@
   "dependencies": {
     "zetachain": "latest"
   },
+  "overrides": {
+    "elliptic": "^6.6.1",
+    "cookie": "^0.7.0",
+    "tmp": "^0.2.4",
+    "bigint-buffer": "^1.1.5"
+  },
   "engines": {
     "node": ">=16.0.0"
   },
